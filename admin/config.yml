@@ -1,0 +1,116 @@
+backend:
+  name: github
+  repo: kgz-delivery/kgz-delivery
+  branch: main
+  base_url: https://index-kg.c6t.ru
+  auth_endpoint: admin/auth.html
+
+site_url: https://index-kg.c6t.ru
+display_url: https://index-kg.c6t.ru
+
+locale: ru
+
+media_folder: assets/uploads
+public_folder: /assets/uploads
+
+collections:
+  - name: shipments
+    label: Отправления
+    label_singular: Отправление
+    folder: content/shipments
+    create: true
+    slug: "{{track_number}}"
+    extension: json
+    format: json
+    identifier_field: track_number
+    summary: "{{track_number}} — {{status_label}}"
+    fields:
+      - label: Трек-номер
+        name: track_number
+        widget: string
+        hint: "Например INDEX-2026-06-08-2231"
+        pattern:
+          - "^INDEX-[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]+$"
+          - "Формат INDEX-ГГГГ-ММ-ДД-XXXX"
+
+      - label: Статус (текст)
+        name: status_label
+        widget: string
+        default: "В ожидании оплаты"
+
+      - label: CSS-класс статуса
+        name: status_class
+        widget: select
+        default: track-status--pending
+        options:
+          - track-status--pending
+          - track-status--transit
+          - track-status--delivered
+
+      - label: Точка отправки
+        name: origin
+        widget: string
+        default: "Нарын"
+
+      - label: Место прибытия
+        name: destination
+        widget: string
+        default: "Бишкек"
+
+      - label: Имя получателя
+        name: recipient_name
+        widget: string
+        required: false
+
+      - label: Адрес получателя
+        name: recipient_address
+        widget: text
+        required: false
+
+      - label: Телефон получателя
+        name: recipient_phone
+        widget: string
+        required: false
+
+      - label: Тариф / вес
+        name: weight
+        widget: string
+        default: "0,4 кг"
+
+      - label: Ориентировочная дата доставки
+        name: eta
+        widget: string
+        default: "—"
+
+      - label: История перемещений
+        name: steps
+        widget: list
+        summary: "{{fields.title}}"
+        fields:
+          - label: Дата
+            name: date
+            widget: string
+            hint: "Например 8 июня"
+          - label: Заголовок
+            name: title
+            widget: string
+          - label: Подробности
+            name: detail
+            widget: string
+            required: false
+          - label: Выполнено
+            name: done
+            widget: boolean
+            default: false
+          - label: Этап «склад»
+            name: warehouse
+            widget: boolean
+            default: false
+          - label: Приглушённый стиль
+            name: muted
+            widget: boolean
+            default: false
+          - label: Текущий этап
+            name: current
+            widget: boolean
+            default: false
