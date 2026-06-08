@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вход через GitHub…</title>
+  <meta name="robots" content="noindex">
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 24rem; margin: 4rem auto; padding: 0 1rem; color: #333; text-align: center; }
+  </style>
+</head>
+<body>
+  <p id="status">Подключаем GitHub…</p>
+  <script>
+    (function () {
+      var PROVIDER = "github";
+      var OAUTH_URL = "https://kgz-delivery.vercel.app/api/auth";
+      var status = document.getElementById("status");
+      var started = false;
+
+      function startOAuth() {
+        if (started) return;
+        started = true;
+        status.textContent = "Перенаправляем на GitHub…";
+        window.location.replace(OAUTH_URL);
+      }
+
+      // Decap CMS требует handshake перед OAuth
+      window.addEventListener("message", function (e) {
+        if (e.data === "authorizing:" + PROVIDER) {
+          startOAuth();
+        }
+      });
+
+      if (window.opener) {
+        window.opener.postMessage("authorizing:" + PROVIDER, window.location.origin);
+      } else {
+        status.textContent = "Откройте вход через кнопку в админке.";
+      }
+    })();
+  </script>
+</body>
+</html>
