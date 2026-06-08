@@ -1,0 +1,32 @@
+{
+  "track_number": "INDEX-2026-06-08-2232",
+  "status_label": "В ожидании оплаты",
+  "status_class": "track-status--pending",
+  "origin": "Ош",
+  "destination": "Каракол",
+  "recipient_name": "Мария С.",
+  "recipient_address": "мкр. Ак-Босого, д. 7",
+  "recipient_phone": "+996 700 223 344",
+  "weight": "8,9 кг",
+  "eta": "—",
+  "steps": [
+    {
+      "date": "8 июня",
+      "title": "Склад INDEX",
+      "detail": "Уже на складе",
+      "done": true,
+      "warehouse": true,
+      "muted": false,
+      "current": false
+    },
+    {
+      "date": "8 июня",
+      "title": "Передано курьеру",
+      "detail": "",
+      "done": true,
+      "warehouse": false,
+      "muted": true,
+      "current": false
+    }
+  ]
+}

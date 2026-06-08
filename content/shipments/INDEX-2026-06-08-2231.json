@@ -1,0 +1,32 @@
+{
+  "track_number": "INDEX-2026-06-08-2231",
+  "status_label": "В ожидании оплаты",
+  "status_class": "track-status--pending",
+  "origin": "Нарын",
+  "destination": "Бишкек",
+  "recipient_name": "Айбек К.",
+  "recipient_address": "ул. Чуй, 145, кв. 12",
+  "recipient_phone": "+996 555 012 731",
+  "weight": "0,4 кг",
+  "eta": "—",
+  "steps": [
+    {
+      "date": "8 июня",
+      "title": "Склад INDEX",
+      "detail": "Уже на складе",
+      "done": true,
+      "warehouse": true,
+      "muted": false,
+      "current": false
+    },
+    {
+      "date": "8 июня",
+      "title": "Передано курьеру",
+      "detail": "",
+      "done": true,
+      "warehouse": false,
+      "muted": true,
+      "current": false
+    }
+  ]
+}

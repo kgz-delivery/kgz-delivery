@@ -1,0 +1,6 @@
+{
+  "name": "kgz-delivery-cms-auth",
+  "private": true,
+  "version": "1.0.0",
+  "description": "GitHub OAuth для Decap CMS (GitHub Pages)"
+}

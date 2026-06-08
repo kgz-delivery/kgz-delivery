@@ -1,0 +1,32 @@
+{
+  "track_number": "INDEX-2026-06-08-2233",
+  "status_label": "В ожидании оплаты",
+  "status_class": "track-status--pending",
+  "origin": "Бишкек",
+  "destination": "Нарын",
+  "recipient_name": "Тимур А.",
+  "recipient_address": "ул. Ленина, 22",
+  "recipient_phone": "+996 555 998 877",
+  "weight": "12,6 кг",
+  "eta": "—",
+  "steps": [
+    {
+      "date": "8 июня",
+      "title": "Склад INDEX",
+      "detail": "Уже на складе",
+      "done": true,
+      "warehouse": true,
+      "muted": false,
+      "current": false
+    },
+    {
+      "date": "8 июня",
+      "title": "Передано курьеру",
+      "detail": "",
+      "done": true,
+      "warehouse": false,
+      "muted": true,
+      "current": false
+    }
+  ]
+}

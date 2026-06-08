@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Авторизация…</title>
+  <meta name="robots" content="noindex">
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 24rem; margin: 4rem auto; padding: 0 1rem; color: #333; text-align: center; }
+  </style>
+</head>
+<body>
+  <p id="status">Завершаем вход…</p>
+  <script>
+    (function () {
+      var status = document.getElementById("status");
+      var raw = window.location.hash ? window.location.hash.slice(1) : "";
+      if (!raw) {
+        status.textContent = "Нет данных авторизации. Закройте окно и попробуйте снова.";
+        return;
+      }
+
+      var message;
+      try {
+        message = decodeURIComponent(raw);
+      } catch (e) {
+        message = raw;
+      }
+
+      if (window.opener && !window.opener.closed) {
+        try { window.opener.postMessage(message, window.location.origin); } catch (e) {}
+        try { window.opener.postMessage(message, "*"); } catch (e) {}
+        status.textContent = "Вход выполнен. Окно закроется…";
+        setTimeout(function () { window.close(); }, 600);
+        return;
+      }
+
+      status.textContent = "Откройте админку и нажмите «Войти через GitHub» ещё раз.";
+    })();
+  </script>
+</body>
+</html>
