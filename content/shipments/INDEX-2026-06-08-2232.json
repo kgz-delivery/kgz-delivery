@@ -9,24 +9,24 @@
       "done": true,
       "warehouse": true,
       "muted": false,
-      "current": false
+      "current": true
     },
     {
       "date": "8 июня",
       "title": "Передано курьеру",
-      "detail": "",
+      "detail": "Курьер забрал посылку и едет на склад",
       "done": true,
       "warehouse": false,
       "muted": true,
       "current": false
     }
   ],
-  "recipient_phone": "+996 700 333 333",
-  "status_class": "track-status--pending",
+  "recipient_phone": "+996 700 32 32 32",
+  "status_class": "track-status--delivered",
   "destination": "Баткен",
-  "recipient_address": "мимими",
-  "recipient_name": "Сары",
-  "eta": "—",
-  "weight": "822 кг",
+  "recipient_address": "г БИШКЕК УЛ МКР ВОСТОК 5 ",
+  "recipient_name": "Сары Нурбашиев",
+  "eta": "08.06.2026 14:00-17:00",
+  "weight": "8,2 кг",
   "track_number": "INDEX-2026-06-08-2232"
 }
