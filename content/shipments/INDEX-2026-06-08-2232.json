@@ -6,7 +6,7 @@
       "date": "8 июня",
       "title": "Склад INDEX",
       "detail": "Уже на складе",
-      "done": true,
+      "done": false,
       "warehouse": true,
       "muted": false,
       "current": true
@@ -17,7 +17,7 @@
       "detail": "Курьер забрал посылку и едет на склад",
       "done": true,
       "warehouse": false,
-      "muted": true,
+      "muted": false,
       "current": false
     }
   ],
