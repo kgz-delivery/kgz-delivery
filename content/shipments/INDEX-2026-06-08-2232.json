@@ -22,7 +22,7 @@
     }
   ],
   "recipient_phone": "+996 700 32 32 32",
-  "status_class": "track-status--delivered",
+  "status_class": "track-status--pending",
   "destination": "Баткен",
   "recipient_address": "г БИШКЕК УЛ МКР ВОСТОК 5 ",
   "recipient_name": "Сары Нурбашиев",
