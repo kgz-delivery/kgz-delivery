@@ -7,7 +7,7 @@
       "title": "Склад INDEX",
       "detail": "Уже на складе",
       "done": true,
-      "warehouse": false,
+      "warehouse": true,
       "muted": false,
       "current": true
     },
