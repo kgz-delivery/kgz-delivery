@@ -1,5 +1,5 @@
 {
-  "origin": "Баткеннн",
+  "origin": "Казахская республика",
   "status_label": "В ожидании оплаты",
   "steps": [
     {
@@ -21,12 +21,12 @@
       "current": false
     }
   ],
-  "recipient_phone": "+996 755202020",
+  "recipient_phone": "+996 755101010",
   "status_class": "track-status--pending",
-  "destination": "БИккеап",
-  "recipient_address": "ул. Чуй, 145, кв. 12",
-  "recipient_name": "хуй котокК.",
+  "destination": "Бишкек",
+  "recipient_address": "Белинка",
+  "recipient_name": "Адилет вас ",
   "suffix": "2231",
-  "eta": "—",
-  "weight": "0,4 кг"
+  "eta": "13:30",
+  "weight": "5кг"
 }
