@@ -1,14 +1,6 @@
 {
-  "suffix": "2231",
+  "origin": "Баткеннн",
   "status_label": "В ожидании оплаты",
-  "status_class": "track-status--pending",
-  "origin": "Нарын",
-  "destination": "Бишкек",
-  "recipient_name": "Айбек К.",
-  "recipient_address": "ул. Чуй, 145, кв. 12",
-  "recipient_phone": "+996 555 012 731",
-  "weight": "0,4 кг",
-  "eta": "—",
   "steps": [
     {
       "date": "8 июня",
@@ -28,5 +20,13 @@
       "muted": true,
       "current": false
     }
-  ]
+  ],
+  "recipient_phone": "+996 755202020",
+  "status_class": "track-status--pending",
+  "destination": "БИккеап",
+  "recipient_address": "ул. Чуй, 145, кв. 12",
+  "recipient_name": "хуй котокК.",
+  "suffix": "2231",
+  "eta": "—",
+  "weight": "0,4 кг"
 }
