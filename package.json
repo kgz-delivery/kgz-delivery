@@ -1,0 +1,6 @@
+{
+  "name": "kgz-delivery",
+  "private": true,
+  "version": "1.0.0",
+  "description": "INDEX delivery site + OAuth backend for Decap CMS"
+}
