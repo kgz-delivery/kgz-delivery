@@ -1,5 +1,5 @@
 {
-  "origin": "Казахская республика",
+  "origin": "Росия",
   "status_label": "В ожидании оплаты",
   "steps": [
     {
@@ -24,9 +24,9 @@
   "recipient_phone": "+996 755101010",
   "status_class": "track-status--pending",
   "destination": "Бишкек",
-  "recipient_address": "Белинка",
-  "recipient_name": "Адилет вас ",
+  "recipient_address": "Достовесвкогшо",
+  "recipient_name": "ильяз",
   "suffix": "2231",
   "eta": "13:30",
-  "weight": "5кг"
+  "weight": "59000кг"
 }
