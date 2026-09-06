@@ -1,5 +1,5 @@
 {
-  "origin": "Росия",
+  "origin": "Талас",
   "status_label": "В ожидании оплаты",
   "steps": [
     {
@@ -21,12 +21,12 @@
       "current": false
     }
   ],
-  "recipient_phone": "+996 755101010",
+  "recipient_phone": "+996 555 35 49 99",
   "status_class": "track-status--pending",
-  "destination": "Бишкек",
-  "recipient_address": "Достовесвкогшо",
-  "recipient_name": "ильяз",
+  "destination": "Токмок",
+  "recipient_address": "Бугрянка 27а Токмок",
+  "recipient_name": "Т. Адил Бактыбекович",
   "suffix": "2231",
-  "eta": "13:30",
-  "weight": "59000кг"
+  "eta": "23:30",
+  "weight": "7,7 + 4,3 кг"
 }
