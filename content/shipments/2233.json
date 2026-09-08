@@ -1,14 +1,6 @@
 {
-  "suffix": "2233",
+  "origin": "Талас ул Манаса 10",
   "status_label": "В ожидании оплаты",
-  "status_class": "track-status--pending",
-  "origin": "Бишкек",
-  "destination": "Нарын",
-  "recipient_name": "Тимур А.",
-  "recipient_address": "ул. Ленина, 22",
-  "recipient_phone": "+996 555 998 877",
-  "weight": "12,6 кг",
-  "eta": "—",
   "steps": [
     {
       "date": "8 июня",
@@ -28,5 +20,13 @@
       "muted": true,
       "current": false
     }
-  ]
+  ],
+  "recipient_phone": "‪+996 552 305 505‬",
+  "status_class": "track-status--pending",
+  "destination": "Село Гавриловка забайкальский переулок 8а",
+  "recipient_address": "Рядом с Бишкеком,Село Гавриловка забайкальский переулок 8а",
+  "recipient_name": "Карманов Закария Загирович",
+  "suffix": "2233",
+  "eta": "Сегодня к 22.00-23.00+-",
+  "weight": "835гр"
 }
