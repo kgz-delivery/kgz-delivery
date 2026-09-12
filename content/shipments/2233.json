@@ -1,5 +1,5 @@
 {
-  "origin": "Талас ул Манаса 10",
+  "origin": "Талас, ул Бердике Баатыра 82",
   "status_label": "В ожидании оплаты",
   "steps": [
     {
@@ -21,12 +21,12 @@
       "current": false
     }
   ],
-  "recipient_phone": "‪+996 552 305 505‬",
+  "recipient_phone": "0554240905",
   "status_class": "track-status--pending",
-  "destination": "Село Гавриловка забайкальский переулок 8а",
-  "recipient_address": "Рядом с Бишкеком,Село Гавриловка забайкальский переулок 8а",
-  "recipient_name": "Карманов Закария Загирович",
+  "destination": "Город Кемин улица кубанычева 4 ",
+  "recipient_address": "Город Кемин улица кубанычева 4",
+  "recipient_name": "Жантаев Нурбек",
   "suffix": "2233",
-  "eta": "22:30",
-  "weight": "835гр"
+  "eta": "23:30",
+  "weight": "7.68+4.3кг"
 }
