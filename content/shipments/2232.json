@@ -1,14 +1,6 @@
 {
-  "suffix": "2232",
+  "origin": "Талас",
   "status_label": "В ожидании оплаты",
-  "status_class": "track-status--pending",
-  "origin": "Ош",
-  "destination": "Каракол",
-  "recipient_name": "Мария С.",
-  "recipient_address": "мкр. Ак-Босого, д. 7",
-  "recipient_phone": "+996 700 223 344",
-  "weight": "8,9 кг",
-  "eta": "—",
   "steps": [
     {
       "date": "8 июня",
@@ -28,5 +20,13 @@
       "muted": true,
       "current": false
     }
-  ]
+  ],
+  "recipient_phone": "+996 703 613 666",
+  "status_class": "track-status--pending",
+  "destination": "Г.Каракол",
+  "recipient_address": "г.каракол улица Коенкозова 86/1 кВ 39",
+  "recipient_name": "Молдогазиев Акылбек Муратович",
+  "suffix": "2232",
+  "eta": "—",
+  "weight": "+4,2 + 8,9 кг"
 }
