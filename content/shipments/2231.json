@@ -1,5 +1,5 @@
 {
-  "origin": "Талас",
+  "origin": "Обл.Талас",
   "status_label": "В ожидании оплаты",
   "steps": [
     {
@@ -9,10 +9,18 @@
       "done": true,
       "warehouse": true,
       "muted": false,
-      "current": false
+      "current": true
     },
     {
-      "date": "8 июня",
+      "done": true,
+      "warehouse": false,
+      "muted": false,
+      "current": false,
+      "date": "3 Октября 14:33",
+      "title": "Перевозка до Склада INDEX"
+    },
+    {
+      "date": "3 Октября 14:27",
       "title": "Передано курьеру",
       "detail": "",
       "done": true,
@@ -21,11 +29,11 @@
       "current": false
     }
   ],
-  "recipient_phone": "+996 555 35 49 99",
+  "recipient_phone": "+996 709 735 153",
   "status_class": "track-status--pending",
-  "destination": "Токмок",
-  "recipient_address": "Бугрянка 27а Токмок",
-  "recipient_name": "Т. Адил Бактыбекович",
+  "destination": "Город Ош, ",
+  "recipient_address": "Улица Закирова 35/1",
+  "recipient_name": "Салиев Фирдавс Зубайрович",
   "suffix": "2231",
   "eta": "23:30",
   "weight": "7,7 + 4,3 кг"
