@@ -3,7 +3,7 @@
   "status_label": "В ожидании оплаты",
   "steps": [
     {
-      "date": "8 июня",
+      "date": "04.10.26",
       "title": "Склад INDEX",
       "detail": "Уже на складе",
       "done": true,
@@ -16,11 +16,11 @@
       "warehouse": false,
       "muted": false,
       "current": false,
-      "date": "3 Октября 14:33",
+      "date": "04.10.26",
       "title": "Перевозка до Склада INDEX"
     },
     {
-      "date": "3 Октября 14:27",
+      "date": "04.10.26",
       "title": "Передано курьеру",
       "detail": "",
       "done": true,
@@ -29,12 +29,12 @@
       "current": false
     }
   ],
-  "recipient_phone": "+996 709 735 153",
+  "recipient_phone": "+996 556 121 363",
   "status_class": "track-status--pending",
-  "destination": "Город Ош, ",
-  "recipient_address": "Улица Закирова 35/1",
-  "recipient_name": "Салиев Фирдавс Зубайрович",
+  "destination": "Г.Манас",
+  "recipient_address": "Ул.Ленина 141",
+  "recipient_name": "Козиев Абубакар Дилмуродович",
   "suffix": "2231",
-  "eta": "23:30",
+  "eta": "22:30",
   "weight": "7,7 + 4,3 кг"
 }
