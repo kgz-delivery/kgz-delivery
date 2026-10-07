@@ -29,12 +29,12 @@
       "current": false
     }
   ],
-  "recipient_phone": "+996 556 121 363",
+  "recipient_phone": "996557477861",
   "status_class": "track-status--pending",
-  "destination": "Г.Манас",
-  "recipient_address": "Ул.Ленина 141",
-  "recipient_name": "Козиев Абубакар Дилмуродович",
+  "destination": "Г.Ош",
+  "recipient_address": "Г.Ош Село Чагыр улица Нурдина Абылгазыева 11",
+  "recipient_name": "Карыев Анвар Дастанбекович",
   "suffix": "2231",
-  "eta": "22:30",
+  "eta": "11:30",
   "weight": "7,7 + 4,3 кг"
 }
