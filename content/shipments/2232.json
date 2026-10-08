@@ -21,12 +21,12 @@
       "current": false
     }
   ],
-  "recipient_phone": "+996 703 613 666",
+  "recipient_phone": "0558230310",
   "status_class": "track-status--pending",
-  "destination": "Г.Каракол",
-  "recipient_address": "г.каракол улица Коенкозова 86/1 кВ 39",
-  "recipient_name": "Молдогазиев Акылбек Муратович",
+  "destination": "Кочкор району",
+  "recipient_address": "Кочкор району центр",
+  "recipient_name": "Толобеков Торокул",
   "suffix": "2232",
-  "eta": "—",
+  "eta": "19:30",
   "weight": "+4,2 + 8,9 кг"
 }
