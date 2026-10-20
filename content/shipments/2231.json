@@ -1,5 +1,5 @@
 {
-  "origin": "Обл.Талас",
+  "origin": "Обл.Талас GG-PC Computing Service",
   "status_label": "В ожидании оплаты",
   "steps": [
     {
@@ -29,11 +29,11 @@
       "current": false
     }
   ],
-  "recipient_phone": "+996502330869",
+  "recipient_phone": "+996502129030",
   "status_class": "track-status--pending",
-  "destination": "Баткен обл,город Сулукту",
-  "recipient_address": "баткенская область,город сулукту улица разаков 39/6",
-  "recipient_name": "Туйчиев Омадбек Тулашхужаевич",
+  "destination": "Город Ош, ",
+  "recipient_address": "Ак-тилек 14-38",
+  "recipient_name": "-",
   "suffix": "2231",
   "eta": "18:00",
   "weight": "7,7 + 4,3 кг"
